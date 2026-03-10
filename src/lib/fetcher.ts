@@ -9,7 +9,7 @@
  */
 
 const DEFAULT_USER_AGENT =
-  "mcp-edgar/0.1.0 (https://github.com/chinmaypatil/mcp-edgar)";
+  "mcp-edgar/0.1.0 (https://github.com/cmanohar/mcp-edgar)";
 
 const userAgent =
   process.env.SEC_EDGAR_USER_AGENT ?? DEFAULT_USER_AGENT;

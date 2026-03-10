@@ -88,7 +88,7 @@ The server includes a built-in rate limiter (10 requests/sec) to comply with SEC
 ## Development
 
 ```bash
-git clone https://github.com/chinmaypatil/mcp-edgar.git
+git clone https://github.com/cmanohar/mcp-edgar.git
 cd mcp-edgar
 npm install
 npm run build
