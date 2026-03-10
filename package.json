@@ -1,0 +1,49 @@
+{
+  "name": "mcp-edgar",
+  "version": "0.1.0",
+  "description": "MCP server for SEC EDGAR — search filings, extract sections, financials, insider transactions. No API key required.",
+  "author": "Chinmay Patil",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "mcp-edgar": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "sec",
+    "edgar",
+    "filings",
+    "10-K",
+    "10-Q",
+    "xbrl",
+    "insider-trading",
+    "model-context-protocol",
+    "claude",
+    "llm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chinmaypatil/mcp-edgar"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
