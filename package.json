@@ -2,7 +2,7 @@
   "name": "mcp-edgar",
   "version": "0.1.0",
   "description": "MCP server for SEC EDGAR — search filings, extract sections, financials, insider transactions. No API key required.",
-  "author": "Chinmay Patil",
+  "author": "Chinmay Manohar",
   "license": "MIT",
   "type": "module",
   "bin": {
